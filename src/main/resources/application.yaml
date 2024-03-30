@@ -5,3 +5,7 @@ spring:
 logging:
   pattern:
     console: "%clr(%d{HH:mm:ss}){magenta} ? %clr(%-5level) ?  %msg%n"
+
+rsa:
+  public-key: classpath:cert/public.pem
+  private-key: classpath:cert/private.pem
