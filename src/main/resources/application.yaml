@@ -1,0 +1,7 @@
+spring:
+  application:
+  name: demo-jwt
+
+logging:
+  pattern:
+    console: "%clr(%d{HH:mm:ss}){magenta} ? %clr(%-5level) ?  %msg%n"
